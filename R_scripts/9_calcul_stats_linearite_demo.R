@@ -12,7 +12,7 @@ for (i in 1:36) {
 }
 
 # Dump des données des tests U à deux bornes de Mann-Whitney
-fwrite(accuracy, "stats/u_test.csv")
+fwrite(temp_utest, "stats/u_test.csv")
 
 # Tableau interactif du U test de Mann-Whitney
 datatable(temp_utest,
